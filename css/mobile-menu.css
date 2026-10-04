@@ -65,6 +65,10 @@
   color: #434455;
 }
 
+.mobile-list[href^="tel"] {
+  color: #4d5ae5;
+}
+
 .mobile-menu .social-list {
   display: flex;
   gap: 40px;
