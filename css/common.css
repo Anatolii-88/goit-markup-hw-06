@@ -61,16 +61,16 @@ img {
   gap: 24px;
 }
 .container {
-  max-width: 320;
+  max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
-@media and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-@media and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;

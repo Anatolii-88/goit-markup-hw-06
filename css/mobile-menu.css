@@ -1,5 +1,6 @@
 .mobile-menu {
   position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -9,11 +10,13 @@
   opacity: 0;
   pointer-events: none;
 }
+
 .mobile-menu.is-open {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
 }
+
 .mobile-container {
   display: flex;
   flex-direction: column;
@@ -21,12 +24,14 @@
   padding-top: 72px;
   padding-bottom: 40px;
 }
+
 .mobile-nav-menu {
   margin-bottom: auto;
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
+
 .mobile-link {
   display: block;
   font-weight: 700;
@@ -60,9 +65,11 @@
   color: #434455;
 }
 
-.mobile-list {
+.mobile-list[href^="tel"] {
+  order: -1;
   font-size: 24px;
   line-height: 1.11111;
+  color: #4d5ae5;
 }
 
 .mobile-menu .social-list {
@@ -81,11 +88,18 @@
   background-color: #4d5ae5;
   color: #f4f4fd;
 }
+
+.mobile-menu .social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
 }
+
 @media screen and (min-width: 1158px) {
   .mobile-menu {
     display: none;

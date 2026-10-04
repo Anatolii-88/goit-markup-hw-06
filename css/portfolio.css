@@ -5,7 +5,7 @@
 .portfolio-container {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 72px;
 }
 
 .portfolio-title {
@@ -118,7 +118,7 @@
     justify-content: center;
     align-items: flex-start;
     column-gap: 24px;
-    row-gap: 48px;
+    row-gap: 72px;
   }
 
   .portfolio-card {
