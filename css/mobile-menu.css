@@ -65,13 +65,6 @@
   color: #434455;
 }
 
-.mobile-list[href^="tel"] {
-  order: -1;
-  font-size: 24px;
-  line-height: 1.11111;
-  color: #4d5ae5;
-}
-
 .mobile-menu .social-list {
   display: flex;
   gap: 40px;

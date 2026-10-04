@@ -15,8 +15,8 @@
 .features-list .subtitle {
   margin: 0 0 8px;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -74,6 +74,8 @@
 
   .features-list .subtitle {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
   }
 
   .features-list .text {
